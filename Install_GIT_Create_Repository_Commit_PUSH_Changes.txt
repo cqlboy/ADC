@@ -1,0 +1,44 @@
+Download Commandline Git (.exe)
+	Launch Git Bash, Should have shortcut on Desktop
+	Inside MingW64K directory
+	<goto console)
+	cd   -- puts you in your home directory
+	<goto Windows>   
+	create new folder c:\Git
+	<goto console)
+	cd /c  
+	ls   -- list contents
+	cd git/  
+	ls  
+	<goto browser>  
+	Copy HTTPS url repository link
+	<goto console>
+	git config --global user.name "cqlboy"   -- setup username with git account
+	git config --global user.email "cqlboy@hotmail.com"
+	git clone <url repository link>   -- downloaded all TestGit files to local Git folder
+	ls
+	git /TestGit
+	ls  -- should show README.md file
+	<goto Windows>
+	create text.txt file in TestGit folder
+	<goto console)
+	git add text.txt
+	git commit "some kind of commit msg" text.txt
+	git push -u origin master
+	
+
+git add - add it to the index for tracking
+git commit - save changes to file/index
+git push -u origin master - pushes changes to origin
+
+	
+	
+Navigate to GitHub Webpage, sign In to account
+	New Repository Button
+		Enter Repository Name   --(username + repository name)
+		Enter Description of repository
+		Choose Public option box
+		Check Initialize this repository with README
+		Choose None on type repository
+		Choose None for License
+		Create Repsitory Button
