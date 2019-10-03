@@ -1,0 +1,12 @@
+# ADC
+Repo in Develement/ADC
+cd /Develepment/ADC
+
+Add file to index
+  git add -m "leave comments of changes" GenericTestfile.txt
+
+Save changes to local file, recoreded in .git index
+  git commit "my changes are" GenericTestfile.txt
+
+Save file changes to source/origin master up on Github
+  git push -u origin master
