@@ -1,6 +1,6 @@
 public class ADCHelloWorld {
 	public static void main(String[] args) {
 		// Prints "Hello, World" in the terminal window.
-		System.out.println("Hello, World !!! !!! HAS GIT Trigger");
+		System.out.println("Hello, World.");
 	}
 }
