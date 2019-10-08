@@ -1,6 +1,6 @@
 public class ADCHelloWorld {
 	public static void main(String[] args) {
 		// Prints "Hello, World" in the terminal window.
-		System.out.println("TIME CHANGE:  3:08");
+		System.out.println("Change to code at: 10:24AM");
 	}
 }
